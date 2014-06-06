@@ -3,10 +3,17 @@
   "author": "jden <jason@denizac.org>",
   "version": "0.1.0",
   "description": "check your google calendar for the day from your command line",
-  "keywords": ["gcal", "ics", "google calendar"],
+  "keywords": [
+    "gcal",
+    "ics",
+    "google calendar"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "bin": {
+    "cal": "./index.js"
   },
   "repository": "git@github.com:jden/node-cli-calendar.git",
   "license": "ISC",
@@ -14,5 +21,11 @@
   "devDependencies": {
     "chai": "^1.9.1",
     "mocha": "^1.19.0"
+  },
+  "dependencies": {
+    "user-settings": "^0.1.5",
+    "ical": "^0.2.0",
+    "sync-prompt": "^0.2.2",
+    "request": "^2.36.0"
   }
 }

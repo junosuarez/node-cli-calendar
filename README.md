@@ -1,18 +1,26 @@
 # cli-calendar
 check your google calendar for the day from your command line
 
-## usage
-```js
-var cliCalendar = require('cli-calendar')
+## cli usage
+```console
+$ cal
+
+go by open device lab
+        11:30:00 /
+
+HouseFacts Review for Chattanooga
+        13:15:00 / Bakery
+
+Dealing with reticent data partners
+        19:00:00 / Board Room
 ```
 
-
-## api
-
+The first time running it, it will prompt you for your private Google
+ICS url. [How to find your ICS url](https://support.google.com/calendar/answer/37648?hl=en).
 
 ## installation
 
-    $ npm install cli-calendar
+    $ npm install -g cli-calendar
 
 
 ## running the tests
@@ -21,6 +29,8 @@ From package root:
 
     $ npm install
     $ npm test
+
+although there really aren't any
 
 
 ## contributors
